@@ -1,0 +1,133 @@
+body {
+	background-size: cover;
+	background-position: center;
+	}
+
+#main {
+	margin: auto;
+	width: 900px;
+	height: 850px;
+	color: #FF0079;
+	opacity: 0.9;
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    line-height: 20%;
+    font-family: papyrus, serif; 
+
+}
+
+#head {
+	color: #F7B830;
+	/*margin-left: 575px;*/
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 40px;
+	font-family: papyrus, serif; 
+	font-size: 75px;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+}
+
+
+
+
+#button {
+	background-color: purple;
+	border: none;
+	width: 155px;
+	height: 55px;
+	font-family: papyrus, serif;
+	font-size: 30px;
+	line-height: 180%;
+	border-radius: 50%;
+	color: yellow;
+
+}
+
+input {
+	border-width: 25px;
+	border-right-color: #D714FA;
+	border-left-color: #D714FA;
+	border-top-color: #D714FA;
+	border-bottom-color: #D714FA;
+	background-color: yellow;
+	width: 50px;
+	height: 50px;
+	font-size: 48px;
+	text-align: center;
+	border-radius: 50%;
+	color: #D714FA;
+	line-height: 90%;
+
+}
+
+/*#win {
+	width: 50px;
+	height: 50px;
+ 	float: top;
+ 	position: absolute;
+}
+
+#loss {
+	float: left;
+	margin-left: 500px;
+	width: 50px;
+	height: 50px;
+}
+
+*/
+
+.row {
+	display: table;
+	width: 100%;
+	margin-top: 50px;
+
+}
+ .column {
+ 	display: table-cell;
+ }
+
+#guess {
+	font-size: 50px;
+	/*color: white;*/
+}
+
+ #left {
+ 	float: left;
+ 	margin-left: 115px;
+ 	
+ }
+
+ #loss {
+ 	float: right;
+ 	margin-right: 30px;
+ 	position: relative;
+ }
+ #win {
+ 	float: left;
+ 	margin-left: 100px;
+ }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Psychic Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body background="assets/images/mind.jpg">
+
+
+<H1 id="head">The Psychic Game</H1>
+
+<div id="main">
+
+		<h4 id=guess>Guess what letter I'm thinking of</h4>
+
+		<h4><input type="text" id="userInput" value=""></h4>
+
+		<button type="submit" onclick="user();" id="button">Enter</button>
+
+		<div class="row">
+
+		<h4 id="win" class="column">Wins: </h4>
+
+		<h4 id="left" class="column">Guesses Left: </h4>
+
+		<h4 id="loss" class="column">Losses: </h4>
+
+		</div>
+
+		<h4 id="soFar1">Your Guesses so far: </h4> <p id="p"></p>
+
+</div>
+
+<script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
