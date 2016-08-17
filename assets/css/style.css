@@ -131,3 +131,9 @@ input {
  	float: left;
  	margin-left: 100px;
  }
+
+ #footer {
+ 	font-size: 20px;
+ 	color: yellow;
+ 	text-align: center;
+ }
